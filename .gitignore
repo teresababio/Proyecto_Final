@@ -8,5 +8,8 @@
 /datos/Test.csv
 /datos/Train.csv
 /datos/Meta.csv
+/datos/modelos
+/datos/parametros_modelos
+/datos/Tensorboard
 datos.zip
 classification_model.ipynb
