@@ -1,3 +1,4 @@
+/.git
 /datos/Train
 /datos/train
 /datos/Meta
@@ -13,3 +14,6 @@
 /datos/Tensorboard
 datos.zip
 classification_model.ipynb
+/archive (1)
+/imagenes_completas/.ipynb_checkpoints
+/imagenes_completas/FullIJCNN2013
