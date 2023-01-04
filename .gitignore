@@ -17,3 +17,7 @@ classification_model.ipynb
 /archive (1)
 /imagenes_completas/.ipynb_checkpoints
 /imagenes_completas/FullIJCNN2013
+/streamlit/__pycache__
+/streamlit/apps/__pycache__
+/streamlit/auxiliar/__pycache__
+/streamlit/imagenes/fondo_inicio.jpgZone.Identifier
