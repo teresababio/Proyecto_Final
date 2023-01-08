@@ -17,3 +17,26 @@ classification_model.ipynb
 /archive (1)
 /imagenes_completas/.ipynb_checkpoints
 /imagenes_completas/FullIJCNN2013
+/streamlit/__pycache__
+/streamlit/apps/__pycache__
+/streamlit/auxiliar/__pycache__
+<<<<<<< HEAD
+/streamlit/imagenes/fondo_inicio.jpgZone.Identifier
+
+/Ejemplo_video/FilmForth .mp4Zone.Identifier
+/Ejemplo_video/label_names.csvZone.Identifier
+/Ejemplo_video/mean_image_rgb.pickleZone.Identifier
+/Ejemplo_video/traffic-sign-to-test.mp4Zone.Identifier
+/Ejemplo_video/Vídeo curso autoescuela_ Señales de reglamentacion. Prioridad_Trim.mp4Zone.Identifier
+/Ejemplo_video/yolov3_ts_test.cfgZone.Identifier
+/Ejemplo_video/yolov3_ts_train.cfgZone.Identifier
+/Ejemplo_video/yolov3_ts_train_5000.weightsZone.Identifier
+/Ejemplo_video/.ipynb_checkpoints
+/Ejemplo_video/yolov3_ts_test.cfg
+/Ejemplo_video/yolov3_ts_train.cfg
+/Ejemplo_video/yolov3_ts_train_5000.weights
+/Ejemplo_video/result.mp4
+/Ejemplo_video/Vídeo curso autoescuela_ Señales de reglamentacion. Prioridad_Trim.mp4
+=======
+/streamlit/imagenes/fondo_inicio.jpgZone.Identifier
+>>>>>>> 16a517e6de4ccf4c3515caa90079e7688e51000c

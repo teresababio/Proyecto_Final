@@ -1,23 +1,17 @@
+
 import streamlit as st
+from multiapp import MultiApp
+from apps import home, Datos
 
+app = MultiApp()
 
-st.title('Clasificación de señales')
+#st.markdown("""
+# Multi-Page App
+#This multi-page app is using the [streamlit-multiapps](https://github.com/upraneelnihar/streamlit-multiapps) framework developed by [Praneel Nihar](https://medium.com/@u.praneel.nihar). Also check out his [Medium article](https://medium.com/@u.praneel.nihar/building-multi-page-web-app-using-streamlit-7a40d55fa5b4).
+#""")
 
-st.markdown("""
-        El objetivo de este trabajo será la clasificación de 5 señales disintas de tráfico mediante  el 
-        empleo de redes neuronales.     
-        * Límite de velocidad de 20  $$\frac{km}{h}$$
-
-        * Límite de velocidad de 30  $$\frac{km}{h}$$
-
-        * Stop
-
-        * Seda al paso
-
-        * Obligatorio girar a la derecha
-
-        * Obligatorio girar a la izquierda
-        """)
-
-click = st.button('Click me')
-print(click)
+# Add all your application here
+app.add_app("Home", home.app)
+app.add_app("Datos", Datos.app)
+# The main app
+app.run()
