@@ -1,4 +1,6 @@
 /.git
+gif_creator.ipynb
+/.ipynb_checkpoints
 /datos/Train
 /datos/train
 /datos/Meta
@@ -6,40 +8,30 @@
 /datos/Test
 /datos/test
 /datos/.ipynb_checkpoints
-/datos/Test.csv
 /datos/Train.csv
 /datos/Meta.csv
+/datos/Test.csv
 /datos/modelos
 /datos/parametros_modelos
 /datos/Tensorboard
 datos.zip
-classification_model.ipynb
 /archive (1)
-/imagenes_completas/.ipynb_checkpoints
-/imagenes_completas/FullIJCNN2013
+/Test_completas/.ipynb_checkpoints
+/Test_completas/FullIJCNN2013
 /streamlit/__pycache__
 /streamlit/apps/__pycache__
 /streamlit/auxiliar/__pycache__
-<<<<<<< HEAD
-<<<<<<< HEAD
-/streamlit/imagenes/fondo_inicio.jpgZone.Identifier
-
-/Ejemplo_video/FilmForth .mp4Zone.Identifier
-/Ejemplo_video/label_names.csvZone.Identifier
-/Ejemplo_video/mean_image_rgb.pickleZone.Identifier
-/Ejemplo_video/traffic-sign-to-test.mp4Zone.Identifier
-/Ejemplo_video/Vídeo curso autoescuela_ Señales de reglamentacion. Prioridad_Trim.mp4Zone.Identifier
-/Ejemplo_video/yolov3_ts_test.cfgZone.Identifier
-/Ejemplo_video/yolov3_ts_train.cfgZone.Identifier
-/Ejemplo_video/yolov3_ts_train_5000.weightsZone.Identifier
+/streamlit/VIDEOS_RESULTADO/cd
 /Ejemplo_video/.ipynb_checkpoints
 /Ejemplo_video/yolov3_ts_test.cfg
 /Ejemplo_video/yolov3_ts_train.cfg
 /Ejemplo_video/yolov3_ts_train_5000.weights
 /Ejemplo_video/result.mp4
 /Ejemplo_video/Vídeo curso autoescuela_ Señales de reglamentacion. Prioridad_Trim.mp4
-/streamlit/imagenes/fondo_inicio.jpgZone.Identifier
+/Ejemplo_video/videos_prueba
+/Ejemplo_video/resultados
+/Ejemplo_imagenes
 
-=======
-/streamlit/imagenes/fondo_inicio.jpgZone.Identifier
->>>>>>> 16a517e6de4ccf4c3515caa90079e7688e51000c
+
+
+

@@ -1,15 +1,8 @@
 import streamlit as st
 import pandas as pd
 from auxiliar.sennal import classes, lst_count
-<<<<<<< HEAD
-<<<<<<< HEAD
 from PIL import Image
-=======
 
->>>>>>> 16a517e6de4ccf4c3515caa90079e7688e51000c
-=======
-
->>>>>>> 16a517e6de4ccf4c3515caa90079e7688e51000c
 
 def app():
     st.title('Datos')
@@ -24,8 +17,7 @@ def app():
     df["label"] = classes.keys()
     df["value_counts"] = lst_count
     df = df.set_index("label")
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     st.table(df) 
 
 
@@ -33,12 +25,7 @@ def app():
     st.image(background, width=500)
 
 
-=======
-    st.table(df)
->>>>>>> 16a517e6de4ccf4c3515caa90079e7688e51000c
-=======
-    st.table(df)
->>>>>>> 16a517e6de4ccf4c3515caa90079e7688e51000c
+
     st.markdown("""
     Como el número de fotos por cada label no es similar, 
     se procedió a aplicar Data Augmentation al conjunto de entrenamiento.""")
@@ -50,14 +37,9 @@ def app():
             p.sample(limit - value)  """
     
     st.code(code, language="python")
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     background = Image.open("./imagenes/data_augmentation.png")
     st.image(background, width=500)
-=======
->>>>>>> 16a517e6de4ccf4c3515caa90079e7688e51000c
-=======
->>>>>>> 16a517e6de4ccf4c3515caa90079e7688e51000c
 
 
 
