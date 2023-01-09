@@ -61,8 +61,8 @@ def app():
     st.header("Resultados")
     df_result = pd.DataFrame(index=["Train", "Test"], columns = ["CNN", "CNN_AUG", "MOBILENETSMALL"])
     df_result["CNN"] = [98.9, 97.6]
-    #df_result["CNN_AUG"] = []
-    #df_result["MOBILENETSMALL"] = []
+    df_result["CNN_AUG"] = [97.15, 97.38 ]
+    df_result["MOBILENETSMALL"] = [97.84, 87.09 ]
 
     st.table(df_result)
     

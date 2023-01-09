@@ -21,7 +21,7 @@ datos.zip
 /streamlit/__pycache__
 /streamlit/apps/__pycache__
 /streamlit/auxiliar/__pycache__
-/streamlit/VIDEOS_RESULTADO/cd
+/streamlit/VIDEOS_RESULTADO
 /Ejemplo_video/.ipynb_checkpoints
 /Ejemplo_video/yolov3_ts_test.cfg
 /Ejemplo_video/yolov3_ts_train.cfg

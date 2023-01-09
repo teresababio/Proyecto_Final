@@ -16,12 +16,12 @@ Todo se encuentra en el programa [datos_modelos.py](https://github.com/teresabab
 Para la clasificación de los modelos se han probado tres redes neuronales. Una de ellas es una red neuronal entrenada desde el principio con los datos sin aplicar el data augmentation.  La segunda es la misma red neuronal pero ya con la base de datos aumentada y la última consiste en tomar la red neuronal ya entrenenada MobileNetSmall y entrenar las últimas capas de esta para adaptarlo a nuestro problema. Para todas las redes neuronales las imágenes tienen que tener un tamaño de (32,32,3) y deben dividirse entre 255.
 
 ### Resultados
-Cuando se ejecutó el modelo con  MobileNetSmall se obtenía que el modelo estaba sobreajustado. A continuación se presentan los resultados
+A continuación se presentan los resultados
 
 |               | CNN           | CNN_AUG     | MOBILENETSMALL       |
 | ------------- | ------------- | --------    |  -----------         |
-|  Train        | 0.99          | 0.97        |       0.98           |
-|  Test         | 0.98          | 0.97        |       0.06           |
+|  Train        | 98.9          |  97.15      |       97.84          |
+|  Test         | 97.6          |  97.38      |       87.09          |
 
 ## Ejemplo imágenes
 Los modelos que se han guardados en la carpeta modelos finales. Se han probado con el dataset [German Traffic Sign Detection Benchmark](https://benchmark.ini.rub.de/gtsdb_dataset.html), que a diferencia con el anterior este contiene imágenes de carreteras con señales de tráfico. Entonces, se han tomado mediante los recuadrados indicados en gt.txt las señales y se han predecho su tipo. Véase el programa [pruebas_imagenes_carretera.ipynb](https://github.com/teresababio/Proyecto_Final/blob/main/imagenes_completas/prueba_imagenes_carretera.ipynb)
