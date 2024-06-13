@@ -21,7 +21,8 @@ A continuación se presentan los resultados
 |               | CNN           | CNN_AUG     | MOBILENETSMALL       |
 | ------------- | ------------- | --------    |  -----------         |
 |  Train        | 98.9          |  97.15      |       97.84          |
-|  Test         | 97.6          |  97.38      |       87.09          |
+|  Val          | 99.63          |  98.86      |       4.08          |
+|  Test         | 97.64          |  97.38      |       87.09          |
 
 ## Ejemplo imágenes
 Los modelos que se han guardados en la carpeta modelos finales. Se han probado con el dataset [German Traffic Sign Detection Benchmark](https://benchmark.ini.rub.de/gtsdb_dataset.html), que a diferencia con el anterior este contiene imágenes de carreteras con señales de tráfico. Entonces, se han tomado mediante los recuadrados indicados en gt.txt las señales y se han predecho su tipo. Véase el programa [pruebas_imagenes_carretera.ipynb](https://github.com/teresababio/Proyecto_Final/blob/main/imagenes_completas/prueba_imagenes_carretera.ipynb)
